@@ -1,3 +1,683 @@
-@use './reset.scss';
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
 
-/* Add your css here */
+.first_list{
+    
+    margin-left: 58%;
+    display: inline;
+    }
+
+    #nav_item_1,#nav_item_2,#nav_item_3,#App{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 17px;
+    
+     }
+     #li1,#li2,#li3{
+        
+        list-style-type: none;
+        padding-left: 20px;
+        display: inline;
+        
+    }
+    .menu_header{
+        margin-top: 10px;
+    }
+    img{
+        vertical-align:top;
+    }
+    #App{
+        margin-left: 15px;
+    }
+    #log_in{
+        text-decoration: none;
+        color:white;
+        font-family: sans-serif;
+        font-size: 20px;
+        
+
+    }
+    #Create{
+        text-decoration: none;
+        color:white;
+        font-family: sans-serif;
+        font-size: 20px;
+        border-style: solid;
+        border-width: 3px;
+        border-color:white;
+        border-radius: 5px;
+        padding:13px;
+        
+    }
+    #log_in:hover{
+        color: blue;
+    }
+    #Create:hover{
+        color: blue;
+        border-style: solid;
+        border-width: 3px;
+        border-color:blue;
+        border-radius: 5px;
+    }
+
+    .image_header{
+        background-image: url("bg.jpg");
+        height: 500px;
+        width:100%;
+    }
+    .second_list{
+        list-style-type: none;
+        display: inline;
+        margin-left: 75%;
+    }
+        .logo{
+            
+        margin-left: 45%;
+        margin-top: 6.5%;
+        
+    }
+    .para{
+        color: white;
+        font-size: 35px;
+        font-family: Georgia;
+        margin-left: 25%;
+        padding-top: 30px;
+    }
+    #li4,#li5{
+        display: inline;
+
+    
+    }
+    
+    .search-restaurant{
+        display: inline;
+    }
+    #city{
+        margin-left: 17%;
+        height: 45px;
+        width:250px;
+        font-family: sans-serif;
+        font-size: large;
+        border-radius: 8px;
+    }
+    #search-rest{
+        
+        width: 700px;
+        height: 45px;
+        font-size: large;
+        border-radius: 7px;
+        
+    }
+    #search-btn{
+        height: 45px;
+        width:100px;
+        background-color: #e34f4f;
+        color: white;
+        font-family: sans-serif;
+        font-size: large;
+        border-radius: 7px;
+        
+    }
+    .section_3{
+        width: 100%;
+        height:1700px;
+        background-color:#4aedf8;
+        
+    }
+    .image_1{
+        float: left;
+        width: 70%;
+        margin-top:15px ;
+        margin-left: 10px;
+    }
+       .widget{
+        width: 28%;
+        margin-left: 69%;
+        background-color: white;
+        height:350px;
+        border-radius: 10px;
+   }
+   .h2{
+       
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 40px;
+   }
+   .p2{
+       font-family: Arial, Helvetica, sans-serif;
+        color:gray;
+       font-size:20px;
+
+   }
+   
+    
+    .h4{
+        
+        font-size:25px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 10px;
+        padding-left: 5px;
+        padding-bottom: 10px;;
+
+    }
+    .search-del{
+
+        border-radius: 5px;
+        margin-left: 8px;
+        height:50px;
+        width:270px;
+        font-size: 20px;
+        margin-top:18px;
+        
+    }
+    .detect-btn{
+        border-radius: 5px;
+        width:100px;
+        height:50px;
+        margin-top:18px;
+        font-size: 18px;
+
+    }
+    
+    .order-btn{
+        background-color: green;
+        color: white;
+        border-radius: 5px;
+        font-size: 20px;
+        margin-left: 8px;
+        width:375px;
+        height:50px;
+        margin-bottom: 20px;
+    }
+    .p_widget{
+        margin-left: 10px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: green;
+    }
+    .p{
+        color: gray;
+        font-size:25px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .h{
+        font-size:30px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .collection_list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+
+    }
+    .listC_1,.listC_2,.listC_3,.listC_4{
+        
+        list-style-type: none;
+        height:200px;
+        width:46%;
+        background-color: white;
+        border-radius: 5px;
+        
+        
+    }
+    .listC_2,.listC_4{margin-left: 10px;
+
+
+    }
+    .listC_1,.listC_2{margin-bottom: 10px;
+        
+
+    }
+    .colh1,.colh2,.colh3,.colh4{
+        
+        display: inline;
+        margin-left: 10px;
+        font-family: sans-serif;
+        
+    }
+    .colp1,.colp2,.colp3,.colp4{
+        
+        margin-left: 10px;
+        
+        font-family: Arial, Helvetica, sans-serif;
+        
+
+        
+    }
+    .coli1,.coli2,.coli3,.coli4{
+        float:left;
+        border-radius: 5px;
+    }
+    .mumbai{
+        margin-top: 15px;
+        width:93%;
+        height:40px;
+        background-color:white;
+        border-radius: 3px;
+    }
+    .hm{
+        color: red;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:20px;
+        padding-top: 8px;;
+        margin-left: 38%;
+    }
+    #am{
+        text-decoration: none;
+    }
+    #am :hover{
+        color:blue;
+    }
+    .categories{
+        margin-left: 10px;
+    }
+    #cat-title{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+    #cat-subtitle{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: gray;
+
+    }
+    .category-list
+    {
+        margin-top: 10px;
+        width: 97%;
+        height:200px;
+        background-color:white;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        list-style-type: none;
+    }
+    .pc1{
+        font-family: sans-serif;
+        margin-left: 10px;
+    }
+    
+    .pc2{
+        font-family: sans-serif;
+        margin-left: -30px;
+    }
+    .pc3,.pc4,.pc5,.pc6,.pc7,.pc8{
+        font-family: sans-serif;
+        
+    }
+    .pc3{
+        margin-left: 12px;
+
+    }
+    .pc4{
+        margin-left: 18px;
+
+    }
+    .pc5{
+        margin-left: 18px;
+
+    }
+    .pc6{
+        margin-left: -16px;
+
+    }
+    .pc7{
+        margin-left: 18px;
+
+    }
+    .pc8{
+        margin-left: -18px;
+
+    }
+    #loc-title{
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    #loc-subtitle{
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: gray;
+        margin-left: 10px;
+    }
+    .localities_list{
+        margin-top: 10px;
+        width: 97%;
+        height:300px;
+        background-color:white;
+        border-radius: 5px;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .localities_list2,.localities_list3,.localities_list1{
+
+        display: inline;
+        list-style-type: none;
+        font-size: 20px;
+        font-family: sans-serif;
+        padding:38px;
+        
+    }
+    .footer{
+        height:550px;
+        background-color: black;
+        width: 100%;
+    }
+    #logo_footer{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    #city_footer{
+        margin-left: 65%;
+        margin-top: 65px;
+        height: 60px;
+        width:300px;
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+    .footer-wrapper{
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .l4{
+        list-style-type: none;
+    }
+    .privacy{
+        color: white;
+        font-family:  sans-serif;
+        font-size: 40px;
+        display: flex;
+        
+    }
+    h6{
+        padding: 10px;
+    }
+    .lp{
+        color: white;
+        font-family:  arial;
+    }
+    
+   /* Media queries for RWD 800px-------------------------------------------------------------------------------------------------*/ 
+    @media screen and (max-width: 600px){
+
+        .section_3{
+            width: 100%;
+            height:3000px;
+            background-color:#4aedf8;
+            
+        }
+         .first_list{
+         display: flex;
+         flex-direction: column;
+      }
+      .second_list{
+        list-style-type: none;
+        display: inline;
+        margin-left: 38%;
+    }
+    .para{
+        color: white;
+        font-size: 34px;
+        text-align: center;
+        margin-left: 25%;
+        padding-top: 20px;
+    }
+    .logo{
+        margin-left: 47%;
+         
+        
+        
+    }
+    #city{
+        width:300px;
+        margin-left: 30%;
+        margin-bottom: 1%;
+
+    }
+    #search-rest{
+        width:300px;
+        margin-left: 30%;
+        margin-bottom: 1%;
+    }
+    #search-btn{
+        width:300px;
+        margin-left: 30%;
+        margin-bottom: 1%;
+    }
+    .image_header{
+        
+        height: 550px;
+        width:100%;
+    }
+    .ad{
+        display: none;
+    }
+
+
+
+    .p{
+        color: gray;
+        font-size:15px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .h{
+        font-size:20px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+    .collection_list{
+        
+        display: inline;
+   }
+    .listC_1,.listC_2,.listC_3,.listC_4{
+        list-style-type: none;
+        background-color: white;
+        width: 440px;
+        height:200px;
+    }
+    
+    .listC_2,.listC_4{
+        margin-left: -1px;
+    }
+    .listC_4{
+        margin-top:10px ;
+    }
+    .colh1,.colh2,.colh3,.colh4{
+        
+        display: flex;
+        font-family: sans-serif;
+        
+    }
+    .colp1,.colp2,.colp3,.colp4{
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .coli1,.coli2,.coli3,.coli4{
+        float: left;
+        
+    }
+    .widget{
+        margin-top: 10%;
+        width: 60%;
+        margin-left: 20%;
+        background-color: white;
+        height:350px;
+        border-radius: 10px;
+   }
+   .h2{
+        margin-left: 20%;
+        margin-top: 210%;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 40px;
+   }
+   .p2{
+        margin-left: 15%;
+       font-family: Arial, Helvetica, sans-serif;
+        color:gray;
+       font-size:20px;
+
+   }
+   
+    
+    .h4{
+        
+        font-size:20px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 10px;
+        padding-left: 7px;
+        padding-bottom: 10px;;
+
+    }
+    .search-del{
+
+        border-radius: 5px;
+        margin-left: 13px;
+        height:50px;
+        width:200px;
+        font-size: 16px;
+        margin-top:18px;
+        
+    }
+    .detect-btn{
+        border-radius: 5px;
+        width: 70px;
+        height:50px;
+        margin-top:18px;
+        font-size: 16px;
+        font-family: bold;
+        background-color: white;
+
+    }
+    
+    .order-btn{
+        background-color: green;
+        color: white;
+        border-radius: 5px;
+        font-size: 23   px;
+        margin-left: 13px;
+        width:275px;
+        height:50px;
+        margin-bottom: 20px;
+    }
+    .p_widget{
+        margin-left: 10px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: green;
+    }
+    .mumbai{
+        margin-top: 15px;
+        width:110%;
+        height:50px;
+        background-color:white;
+        border-radius: 3px;
+    }
+    .hm{
+        color: red;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:20px;
+        padding-top: 12px;
+        margin-left: 25%;
+    }
+    .categories{
+        margin-left: 14px;
+        margin-top:-320px;
+    }
+    
+    .category-list
+    {
+        margin-top: 10px;
+        width: 97%;
+        height:300px;
+        background-color:white;
+        border-radius: 5px;
+        display: flex;
+        flex-wrap:wrap;
+        
+        
+    }
+    .pc2{
+        margin-left: 10px;
+        
+    }
+
+    .cli2{
+        margin-left: 10px;
+    }
+    .localities_list{
+        margin-top: 10px;
+        width: 97%;
+        height:750px;
+        background-color:white;
+        border-radius: 5px;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .localities_list2,.localities_list3,.localities_list1{
+
+        display: inline;
+        list-style-type: none;
+        font-size: 20px;
+        font-family: sans-serif;
+        padding:5px;
+    }
+    #logo_footer{
+        margin-top: 30px;
+        margin-left: 20px;
+        float:left;
+        
+    }
+    #city_footer{
+        margin-left: 35%;
+        margin-top: 20px;
+        height: 60px;
+        width:300px;
+        color: white;
+        background-color: black;
+        border-radius: 5px;
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+
+    }
+    .footer-wrapper{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .footer{
+        height:1050px;
+        background-color: black;
+        width: 100%;
+    }
+    h6{
+        font-size: 15px;
+    }
+    
+
+    }
